@@ -1,0 +1,132 @@
+
+html { box-sizing: border-box;}
+* {box-sizing: inherit;}
+
+body {	
+	margin: 0;
+	padding: 0;
+	font: 1em normal 'ProximaNovaRegular', Helvetica, Arial, sans-serif;
+	background-color: #fff;
+	background-image: url(images/bg_body_wood.jpg);
+	background-size: 100% 100%;
+	background-position: top center;
+	background-attachment: fixed;
+}
+
+a {
+	color: #b00;
+}
+
+.wrapper {
+	width: 980px;
+	padding: 20px;
+	margin: 30px auto;
+	background-color: #fff;
+	border-radius: 6px;
+}
+
+header {
+	display: flex;
+	flex-direction : row;
+	margin-bottom: 30px; 
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+.logo {
+	height: 65px;
+	margin-right: 30px;
+}
+
+header h1 {
+	font-size: 3.75em;
+	font-family: 'ProximaNovaThin', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-transform: lowercase;
+	margin: 0;
+}
+
+header h2 {
+	margin: 5px 0 0;
+	color: #666;
+	font-size: 1em;
+	font-family: 'ProximaNovaCondensedRegular', Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+.nav { display: none;}
+
+section {
+	display: flex;
+}
+
+.intro__text {
+	color: #333;
+	font-family: 'ChaparralProRegular', Georgia, "Times New Roman", Times, serif;
+	font-size: 1.875em;
+	line-height: 1.35;
+	margin-right: 20px;
+	width: 690px;
+}
+
+.intro__text strong {
+	color: #b00;
+	font-family: 'ChaparralProItalic';
+	font-weight: normal;
+}
+
+
+.portfolio {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.portfolio--recent .portfolio__item { width: 48%; height: auto;}
+.portfolio__item {
+	width: 32%;
+	height: 200px;
+	overflow: hidden;
+	margin-right: 2%;
+	border: 1px solid #ddd;
+	padding: 8px;
+	margin-bottom: 20px;
+}
+
+.portfolio__item:nth-child(3n) {margin-right: 0;}
+.portfolio__item img {
+	width: 100%;
+}
+
+/* Sidebar 
+---------------------*/
+.intro aside {
+	width: 220px;
+	flex-shrink: 0;
+	line-height: 1.5;
+}
+
+aside h2 {
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 7px;
+	color: #b00;
+	font-size: 1.125em;
+	font-family: 'ProximaNovaCondensedRegular', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	text-transform: lowercase;
+}
+
+aside a {
+	text-decoration: none;
+}
+
+.section-title {
+	color: #999;
+	font-size: 1.5em;
+	font-family: 'ProximaNovaCondensedRegular', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	text-transform: lowercase;
+	border-bottom: 1px solid #ddd;
+}
+
