@@ -1,9 +1,3 @@
-<form name="count">
-<input type="text" size="69" name="count2">
-</form>
-
-
-<script>
 
 /*
 Count down until any date script-
@@ -44,8 +38,4 @@ document.forms.count.count2.value="Only "+dday+ " days, "+dhour+" hours, "+dmin+
 setTimeout("countdown(theyear,themonth,theday)",1000)
 }
 //enter the count down date using the format year/month/day
-countdown(2002,12,25)
-</script>
-<p align="center"><font face="arial" size="-2">This free script provided by</font><br>
-<font face="arial, helvetica" size="-2"><a href="http://javascriptkit.com">JavaScript
-Kit</a></font></p>
+countdown(2016,04,18)
