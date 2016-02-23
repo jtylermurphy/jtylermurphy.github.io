@@ -205,6 +205,9 @@ a {
   .contact span {
     font-size: 20px;
     letter-spacing: 3px; }
+    .contact a {
+      font-size: 1em;
+    }
 
 footer {
   height: 40px;
