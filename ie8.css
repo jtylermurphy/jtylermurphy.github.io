@@ -1,6 +1,0 @@
-@charset "utf-8";
-/* CSS Document */
-
-.skills p .rating .howmuch {display:none;}
-.p90, .p70, .p60, .p40, .p30, .p10 {display:none;}
-.skills p .rating {background:#eee; width:150px; display:inline-block; margin-bottom:2px; border-radius:0 3px 3px 0;}
