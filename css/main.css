@@ -78,6 +78,12 @@ section {
   height: 100%;
   /*overflow: hidden;*/ }
 
+.os-animation {
+  opacity: 0; }
+
+.os-animation.animated {
+  opacity: 1; }
+
 .tm-header {
   position: fixed;
   top: 0;
@@ -205,9 +211,8 @@ a {
   .contact span {
     font-size: 20px;
     letter-spacing: 3px; }
-    .contact a {
-      font-size: 1em;
-    }
+  .contact a {
+    font-size: 1em; }
 
 footer {
   height: 40px;
