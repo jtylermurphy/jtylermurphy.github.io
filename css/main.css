@@ -242,3 +242,6 @@ footer {
     text-align: center; }
     .projects .iphone img {
       max-height: 400px; }
+
+.projects a { text-decoration: underline; color: #84a68d; font-size: 1em;}
+.projects a:hover {color: #fff;}
