@@ -258,3 +258,38 @@ header {
 footer {
   min-height: 180px;
   background: #eaeaea; }
+
+footer .container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  height: 180px; }
+
+.footer_content {
+  width: 50%; }
+
+.afi-footer {
+  text-align: center; }
+  .afi-footer a {
+    margin-right: 10px; }
+  .afi-footer a:nth-child(5) {
+    margin-right: 50px; }
+
+.pcs-footer {
+  display: -webkit-box;
+  display: flex;
+  padding-left: 100px;
+  -webkit-box-align: center;
+  align-items: center; }
+  .pcs-footer ul {
+    border-left: 1px solid #979797;
+    margin-left: 40px; }
+  .pcs-footer li {
+    list-style: none;
+    margin-bottom: 10px; }
+    .pcs-footer li a {
+      margin-right: 10px;
+      color: #000;
+      text-decoration: none;
+      font-size: 14px; }
