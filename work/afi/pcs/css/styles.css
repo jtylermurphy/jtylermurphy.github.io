@@ -165,26 +165,26 @@ header {
 
 .slick-prev {
   left: -30px;
-  background-image: url("/images/arrow-left.png"); }
+  background-image: url("../images/arrow-left.png"); }
   .slick-prev:hover {
-    background-image: url("/images/arrow-left_over.png"); }
+    background-image: url("../images/arrow-left_over.png"); }
   .slick-prev.slick-disabled {
-    background-image: url("/images/arrow-left_disabled.png"); }
+    background-image: url("../images/arrow-left_disabled.png"); }
 
 .slick-next {
   right: -30px;
-  background-image: url("/images/arrow-right.png"); }
+  background-image: url("../images/arrow-right.png"); }
   .slick-next:hover {
-    background-image: url("/images/arrow-right_over.png"); }
+    background-image: url("../images/arrow-right_over.png"); }
   .slick-next.slick-disabled {
-    background-image: url("/images/arrow-right_disabled.png"); }
+    background-image: url("../images/arrow-right_disabled.png"); }
 
 .sign-up {
   background: -webkit-linear-gradient(left, #be1721 0%, #be1721 50%, #1c279a 51%, #1c279a 100%);
   background: linear-gradient(to right, #be1721 0%, #be1721 50%, #1c279a 51%, #1c279a 100%); }
 
 .sign-up__content {
-  background-image: url("/images/bg_sign-up.png");
+  background-image: url("../images/bg_sign-up.png");
   background-repeat: repeat-y;
   background-position: center;
   height: 400px;
