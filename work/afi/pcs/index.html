@@ -2,48 +2,69 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="css/styles.css"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-		
-
-
 		<!-- Image Carousel -->
 		<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+		<link rel="stylesheet" href="css/styles.css"/>
+
 
 
     </head>
     <body>
 		<header class="container-fluid">
 			<div class="container">
-				<div class="logo">
-					<img src="images/afi_logo.png" alt="Armed Forces Insurance Logo">
+				<div class="row">
+				<div class="col-sm-3">
+					<div class="logo">
+						<img src="images/afi_logo.png" alt="Armed Forces Insurance Logo">
+					</div>
 				</div>
-				<nav class="nav">
-					<ul>
-						<li><a href="http://www.afi.org/About-AFI">About AFI</a></li>
-						<li><a href="http://www.afi.org/News-And-Events">News &amp; Events</a></li>
-						<li><a href="http://www.afi.org/Customer-Service">Contact Us</a></li>
-						<li class="last"><a href="https://www.afi.org/AFIConnect/SignIn?area=AFIConnect">AFIConnect Log in</a></li>
-						<li class="search"><input type="search" placeholder="Search" /></li>
-					</ul>
-				</nav>
+				<div class="col-sm-9">
+					<nav class="navbar navbar-default">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							 <a class="navbar-brand visible-xs" href="#">Menu</a>
+						</div>
+						<div class="collapse navbar-collapse" id="navbar">
+							<ul class="nav navbar-nav navbar-right">
+								<li><a href="http://www.afi.org/About-AFI">About AFI</a></li>
+								<li><a href="http://www.afi.org/News-And-Events">News &amp; Events</a></li>
+								<li><a href="http://www.afi.org/Customer-Service">Contact Us</a></li>
+								<li class="last"><a href="https://www.afi.org/AFIConnect/SignIn?area=AFIConnect">AFIConnect Log in</a></li>
+								<!-- <li class="search hidden-xs hidden-sm"><input type="search" placeholder="Search" /></li> -->
+							</ul>
+						</div>
+					</nav>
+					</div>
+				</div>
+				
 			</div>
 		</header>
 		<main>
 			<section class="welcome-banner container-fluid">
-				<div class="welcome-banner__container container">
-					<div class="welcome-banner__image"></div>
-					<div class="welcome-banner__content">
-						<h1>Welcome to <span>Armed Forces Insurance</span></h1>
-						<p>At Armed Forces Insurance, we’ve known the challenges of a PCS before it was called a PCS, because we’ve been insuring service members, veterans and their families for over 128 years. So when a great new service comes along <em><strong>by and for</strong></em> military families to help solve the toughest PCS problems, we are more than qualified to recognize it. That’s why we’re excited to announce our proud partnership with <a href="http://www.pcsgrades.com">PCSgrades.com</a>.</p>
+				<div class="container">
+					<div class="welcome-banner__container row">
+						<div class="hero-image col-sm-5"></div>
+						<div class="col-sm-7">
+							<div class="welcome-banner__content">
+								<h1>Welcome to <span>Armed Forces Insurance</span></h1>
+								<p>At Armed Forces Insurance, we’ve known the challenges of a PCS before it was called a PCS, because we’ve been insuring service members, veterans and their families for over 128 years. So when a great new service comes along <em><strong>by and for</strong></em> military families to help solve the toughest PCS problems, we are more than qualified to recognize it. That’s why we’re excited to announce our proud partnership with <a href="http://www.pcsgrades.com">PCSgrades.com</a>.</p>
+							</div>
+						</div>
 					</div>
 				</div>	
 			</section>
-			<section class="carousel-content container">
+			<section class="carousel container">
 				<h2>PCS Resources</h2>
-				<div class="your-class">
+				<div class="afi-carousel">
 					<div class="carousel-item">
 						<div class="carousel-item__image">
 							<img src="images/homeowner.jpg" alt="">
@@ -118,47 +139,70 @@
 			</section>
 			<section class="sign-up container-fluid">
 				<div class="sign-up__content container">
-					<div class="afi-sign-up sign-up__box">
-						<div class="sign-up__logo">
-							<img src="images/afi_logo_white.png" alt="">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="afi-sign-up sign-up__box">
+								<div class="sign-up__logo">
+									<img src="images/afi_logo_white.png" alt="">
+								</div>
+								<p>When you need PCS resources, and products for Homeowner’s Insurance, Renter’s Insurance and more!</p>
+								<a href="#" class="cta"><span>Get a quote</span> For all your insurance needs.</a>
+							</div>
 						</div>
-						<p>When you need PCS resources, and products for Homeowner’s Insurance, Renter’s Insurance and more!</p>
-						<a href="#" class="cta"><span>Get a quote</span> For all your insurance needs.</a>
-					</div>
-					<div class="pcs-sign-up sign-up__box">
-						<div class="sign-up__logo">
-							<img src="images/PCSgrades_logo.png" alt="">
+						<div class="col-sm-6">
+							<div class="pcs-sign-up sign-up__box">
+								<div class="sign-up__logo">
+									<img src="images/PCSgrades_logo.png" alt="">
+								</div>
+								<p>For trusted reviews by and for military families about neighborhoods, schools and more in your area!</p>
+								<a href="#" class="cta"><span>Sign Up</span> For a free account!</a>
+							</div>
 						</div>
-						<p>For trusted reviews by and for military families about neighborhoods, schools and more in your area!</p>
-						<a href="#" class="cta"><span>Sign Up</span> For a free account!</a>
 					</div>
+					
 				</div>
 			</section>
 		</main>
-		<footer>
+		<footer class="container-fluid">
 			<div class="container">
-				<div class="afi-footer footer_content">
-					<a href=""><img src="images/icon-afi-facebook.png" alt=""></a>
-					<a href=""><img src="images/icon-afi-twitter.png" alt=""></a>
-					<a href=""><img src="images/icon-afi-linkedin.png" alt=""></a>
-					<a href=""><img src="images/icon-afi-googleplus.png" alt=""></a>
-					<a href=""><img src="images/icon-afi-youtube.png" alt=""></a>
-					<a href=""><img src="images/msoy16_logo.png" alt=""></a>
+				<div class="row">
+					<div class="afi-footer footer_content clearfix col-sm-6">
+						<h3>Armed Forces Insurance</h3>
+						<div class="afi-footer-content">
+							<div class="afi-social">
+								<a href="https://www.facebook.com/ArmedForcesInsurance"><img src="images/icon-afi-facebook.png" alt=""></a>
+								<a href="https://twitter.com/ArmedForcesIns"><img src="images/icon-afi-twitter.png" alt=""></a>
+								<a href="https://www.linkedin.com/company/armed-forces-insurance?trk=nmp_rec_act_company_photo"><img src="images/icon-afi-linkedin.png" alt=""></a>
+								<a href="https://plus.google.com/102361601001679160621/posts"><img src="images/icon-afi-googleplus.png" alt=""></a>
+								<a href="http://www.youtube.com/channel/UCH0KBSi-fSt6wNJ6vdVjcQg"><img src="images/icon-afi-youtube.png" alt=""></a>
+							</div>
+							<a href="" class="msoylogo"><img src="images/msoy16_logo.png"  alt="Armed Forces Insurance Sponsor of Military Spouse of the Year 2016 Award"></a>
+						</div>
+						
+						
+						
+					</div>
+					<div class="pcs-footer footer_content col-sm-6">
+						<h3>PCSgrades</h3>
+						<div class="pcs-footer-content">
+							<a href="https://www.pcsgrades.com" class="pcslogo"><img src="images/pcsgrades-logo_black.png" alt=""></a>
+							<ul>
+								<li><a href="https://www.pcsgrades.com/about#our-team">About Us</a></li>
+								<li><a href="http://blog.pcsgrades.com/?_ga=1.142346160.34879969.1464724592">PCS Grades Blog</a></li>
+								<li class="icons">
+									<a href="https://www.facebook.com/PCSgrades/"><img src="images/icon-facebook.png" alt=""></a>
+									<a href="https://www.pinterest.com/pcsgrades0038/"><img src="images/icon-pinterest.png" alt=""></a>
+									<a href="https://www.instagram.com/pcsgrades/"><img src="images/icon-instagram.png" alt=""></a>
+									<a href="https://twitter.com/pcsgrades"><img src="images/icon-twitter.png" alt=""></a>
+									<a href="https://www.linkedin.com/company/pcsgrades-com"><img src="images/icon-linkedin.png" alt=""></a>
+								</li>
+							</ul>
+						</div>
+						
+					</div>
 				</div>
-				<div class="pcs-footer footer_content">
-					<a href="https://www.pcsgrades.com"><img src="images/pcsgrades-logo_black.png" alt=""></a>
-					<ul>
-						<li><a href="https://www.pcsgrades.com/about#our-team">About Us</a></li>
-						<li><a href="http://blog.pcsgrades.com/?_ga=1.142346160.34879969.1464724592">PCS Grades Blog</a></li>
-						<li>
-							<a href="https://www.facebook.com/PCSgrades/"><img src="images/icon-pcs-facebook.png" alt=""></a>
-							<a href="https://www.pinterest.com/pcsgrades0038/"><img src="images/icon-pcs-pinterest.png" alt=""></a>
-							<a href="https://www.instagram.com/pcsgrades/"><img src="images/icon-pcs-instagram.png" alt=""></a>
-							<a href="https://twitter.com/pcsgrades"><img src="images/icon-pcs-twitter.png" alt=""></a>
-							<a href="https://www.linkedin.com/company/pcsgrades-com"><img src="images/icon-pcs-linkedin.png" alt=""></a>
-						</li>
-					</ul>
-				</div>
+				
+				
 			</div>
 		</footer>
 
@@ -169,13 +213,39 @@
 			<script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 			<script>
 				$(document).ready(function(){
-				  $('.your-class').slick({
+				  $('.afi-carousel').slick({
 				      infinite: false,
 					  slidesToShow: 5,
 					  slidesToScroll: 1,
 					  arrows: true,
 					  prevArrow: "<button type=\"button\" class=\"slick-prev\"></button>",
-					  nextArrow: "<button type=\"button\" class=\"slick-next\"></button>"
+					  nextArrow: "<button type=\"button\" class=\"slick-next\"></button>",
+					  responsive: [
+					    {
+					      breakpoint: 480,
+					      settings: {
+					        slidesToShow: 1
+					      }
+					    },
+					    {
+					      breakpoint: 768,
+					      settings: {
+					        slidesToShow: 2
+					      }
+					    },
+					    {
+					      breakpoint: 1024,
+					      settings: {
+					        slidesToShow: 3
+					      }
+					    },
+					    {
+					      breakpoint: 1200,
+					      settings: {
+					        slidesToShow: 4
+					      }
+					    }
+					    ]
 				  });
 				});
 			</script>
