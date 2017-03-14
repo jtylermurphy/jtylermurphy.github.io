@@ -166,7 +166,7 @@ a {
 
 .about {
   height: 100%;
-  min-height: 726px;
+  min-height: 800px;
   background: url(../images/bg_about.jpg) bottom center no-repeat;
   background-size: cover; }
   .about img {
@@ -245,3 +245,7 @@ footer {
 
 .projects a { text-decoration: underline; color: #84a68d; font-size: 1em;}
 .projects a:hover {color: #fff;}
+
+.container {
+    overflow: hidden;
+}
