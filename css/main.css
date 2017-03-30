@@ -76,7 +76,9 @@ section {
 
 .container {
   height: 100%;
-  /*overflow: hidden;*/ }
+  /*overflow: hidden;*/ 
+  min-height: 600px;
+}
 
 .os-animation {
   opacity: 0; }
