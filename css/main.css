@@ -255,7 +255,15 @@ footer {
 
 
 @media screen and (max-width: 767px){
-    .about {
+ .projects .project {
+   margin-top: 0;
+  }
+  
+  .propjects .project + .project {
+    margin-top: 50px;
+  }
+  
+  .about {
         min-height: 1000px;
     }
 }
