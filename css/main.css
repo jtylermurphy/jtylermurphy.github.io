@@ -77,7 +77,6 @@ section {
 .container {
   height: 100%;
   /*overflow: hidden;*/ 
-  min-height: 600px;
 }
 
 .os-animation {
@@ -134,7 +133,9 @@ a {
     font-weight: 300;
     color: #84A68D;
     font-size: 1.75em; }
-
+.welcome .container {
+  min-height: 600px;
+}
 .br {
   display: block; }
 
