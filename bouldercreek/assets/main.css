@@ -221,42 +221,42 @@ p {
 .img-header {
   height: 350px; }
   .lawnmowing .img-header {
-    background-image: url("/assets/images/lawnmowing_lg.jpg");
+    background-image: url("assets/images/lawnmowing_lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .referral .img-header {
-    background-image: url("/assets/images/referral.jpg");
+    background-image: url("assets/images/referral.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .landscapedesign .img-header {
-    background-image: url("/assets/images/landscape_banner.jpg");
+    background-image: url("assets/images/landscape_banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .landscapemaintenance .img-header {
-    background-image: url("/assets/images/lawncare_lg.jpg");
+    background-image: url("assets/images/lawncare_lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .mulching .img-header {
-    background-image: url("/assets/images/mulching_banner.jpg");
+    background-image: url("assets/images/mulching_banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .planting .img-header {
-    background-image: url("/assets/images/planting_banner.jpg");
+    background-image: url("assets/images/planting_banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .snowremoval .img-header {
-    background-image: url("/assets/images/snowremoval_lg.jpg");
+    background-image: url("assets/images/snowremoval_lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .contact .img-header {
-    background-image: url("/assets/images/contact.jpg");
+    background-image: url("assets/images/contact.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -272,12 +272,12 @@ p {
   text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
   font-weight: bold; }
   .landscape_subitem.softscape {
-    background-image: url("/assets/images/softscapeBG.jpg");
+    background-image: url("assets/images/softscapeBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .landscape_subitem.hardscape {
-    background-image: url("/assets/images/hardscapeBG.jpg");
+    background-image: url("assets/images/hardscapeBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -297,17 +297,17 @@ p {
     font-size: 26px;
     line-height: 36px; }
   .sub-item.lawnmaint_bg {
-    background-image: url("/assets/images/lawnmaint_subBG.jpg");
+    background-image: url("assets/images/lawnmaint_subBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .sub-item.landscape_bg {
-    background-image: url("/assets/images/landscape_subBG.jpg");
+    background-image: url("assets/images/landscape_subBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .sub-item.landscapemaint_bg {
-    background-image: url("/assets/images/landscapemaint_subBG.jpg");
+    background-image: url("assets/images/landscapemaint_subBG.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
@@ -385,32 +385,32 @@ footer {
   align-items: center;
   justify-content: center; }
   .slide--lawn-mowing {
-    background-image: url("/assets/images/lawnmowing_lg.jpg");
+    background-image: url("assets/images/lawnmowing_lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .slide--landscape {
-    background-image: url("/assets/images/landscape_lg.jpg");
+    background-image: url("assets/images/landscape_lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .slide--lawn-care {
-    background-image: url("/assets/images/lawncare_lg.jpg");
+    background-image: url("assets/images/lawncare_lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .slide--planting {
-    background-image: url("/assets/images/planting_lg.jpg");
+    background-image: url("assets/images/planting_lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .slide--mulching {
-    background-image: url("/assets/images/mulching_lg.jpg");
+    background-image: url("assets/images/mulching_lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
   .slide--snow-removal {
-    background-image: url("/assets/images/snowremoval_lg.jpg");
+    background-image: url("assets/images/snowremoval_lg.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; }
