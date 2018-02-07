@@ -76,7 +76,7 @@ section {
 
 .container {
   height: 100%;
-  /*overflow: hidden;*/ 
+  /*overflow: hidden;*/
 }
 
 .os-animation {
@@ -127,15 +127,25 @@ a {
     margin-top: 45%; }
   .welcome p {
     color: #999;
-    font-size: 2vh;
+    font-size: 1em;
     line-height: 1.5;
     text-align: center;
     font-weight: 300;
     color: #84A68D;
-    font-size: 1.75em; }
+    margin-top: 24px;
+
+  }
 .welcome .container {
   min-height: 600px;
 }
+
+.p-smaller {
+  font-weight: 200 !important;
+  padding-left: 10%;
+  padding-right: 10%;
+
+}
+strong { font-weight: 500 !important;}
 .br {
   display: block; }
 
@@ -232,7 +242,7 @@ footer {
     letter-spacing: 3px;
     font-weight: 300;
     margin-top: 20%; }
-  .projects p {
+  .projects p, .projects li {
     font-weight: 300;
     color: #969696;
     line-height: 1.75;
@@ -258,11 +268,11 @@ footer {
  .projects .project {
    margin-top: 0;
   }
-  
+
   .propjects .project + .project {
     margin-top: 50px;
   }
-  
+
   .about {
         min-height: 1000px;
     }
